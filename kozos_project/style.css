@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: black;
+  }
+div#nav{
+    text-align: center;
+}
+div#nav ul{
+    display: inline-block;
+}
+div maincontainer {
+    margin: 0 auto;
+    width: ___px;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    width: 75px;
+    height: 55px;
+}
+.container{
+text-align: center;
+}
+.container-fluid {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.jumbotron{
+    height: 1000px;
+    padding: 50px;
+    background-color: rgb(16,124,16);
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; /**100 */
+    width: 100%;
+    image-rendering: smooth;
+}
+.bgimg-1{
+    background-image: url("kepek/hatter1.jpg");
+}
+
+h1{
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+#szoveg{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 50px;
+}
