@@ -1,0 +1,124 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: black;
+  }
+div#nav{
+    text-align: center;
+}
+div#nav ul{
+    display: inline-block;
+}
+div maincontainer {
+    margin: 0 auto;
+    width: ___px;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    width: 75px;
+    height: 55px;
+}
+.container{
+text-align: center;
+}
+.container-fluid {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.jumbotron{
+    height: 900px;
+    padding: 50px;
+    background-color: rgb(16,124,16);
+}
+.jumbotron-sm{
+    height: 500px;
+    padding: 50px;
+    background-color: rgb(16,124,16);
+}
+.bgimg-1, .bgimg-2, .bgimg-3{
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; /**100 */
+    width: 100%;
+    image-rendering: smooth;
+}
+.bgimg-1{
+    background-image: url('kepek/hatter1.jpg');
+}
+.bgimg-2{
+    background-image: url('kepek/hatter2.jpg');
+}
+.bgimg-3{
+    background-image: url('kepek/hatter3.jpg');
+}
+h1, h2{
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+#szoveg{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 50px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto 0;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 8px;
+    color: white;
+ }
+ footer{
+    background-color: black;
+    text-align: center;
+ }
+ .fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }      
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
