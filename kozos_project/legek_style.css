@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(137, 207, 240);
+}
+.cim {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+.row {
+  margin: auto;
+}
+.card {
+  width: 18rem;
+  height: 18rem;
+  margin: auto;
+}
+.card-img-top {
+  width: 100%;
+  height: 190px;
+}
+.card-text {
+  font-size: larger;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 5px rgb(16 124 16);
+}
+nav {
+  background-color: white;
+}
+#logo {
+  width: 75px;
+  height: 55px;
+}
